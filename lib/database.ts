@@ -2,11 +2,11 @@ import mysql from "mysql2/promise"
 
 // Database configuration
 const dbConfig = {
-  host: process.env.DB_HOST || "localhost",
-  port: Number.parseInt(process.env.DB_PORT || "3306"),
+  host: process.env.DB_HOST || "yamabiko.proxy.rlwy.net",
+  port: Number.parseInt(process.env.DB_PORT || "34130"),
   user: process.env.DB_USER || "root",
-  password: process.env.DB_PASSWORD || "rishabh@5678",
-  database: process.env.DB_NAME || "securesight",
+  password: process.env.DB_PASSWORD || "jvsTONVTklsjdhDRCQgvyYBXdvNlHbre",
+  database: process.env.DB_NAME || "railway",
   waitForConnections: true,
   connectionLimit: 10,
   queueLimit: 0,
